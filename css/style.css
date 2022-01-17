@@ -579,14 +579,12 @@ body {
   width: 100%;
   height: 100%;
   flex: 0 1 57%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.main-content__video {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
+.main-content__video video{
+  max-height: 442px;
 }
 
 .main-content__offer {
@@ -931,47 +929,21 @@ body {
   margin-bottom: 15px;
 }
 
-.section-five__cards-item-imege_1 {
-  background-image: url("/img/section-five/section-five__icon/card-icon-01.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  transition: all 0.1s linear;
+.phone,
+.marker,
+.mail{
+  fill: #0D5C63;
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
 }
 
-.section-five__cards-colomn:hover .section-five__cards-item-imege_1 {
-  background-image: url("/img/section-five/section-five__icon/hover/h1.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  transition: all 0.1s linear;
+.section-five__cards-colomn:hover .phone,
+.section-five__cards-colomn:hover .marker,
+.section-five__cards-colomn:hover .mail{
+  fill: #fff;
 }
 
-.section-five__cards-item-imege_2 {
-  background-image: url("/img/section-five/section-five__icon/card-icon-02.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  transition: all 0.1s linear;
-}
-
-.section-five__cards-colomn:hover .section-five__cards-item-imege_2 {
-  background-image: url("/img/section-five/section-five__icon/hover/h2.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  transition: all 0.1s linear;
-}
-
-.section-five__cards-item-imege_3 {
-  background-image: url("/img/section-five/section-five__icon/card-icon-03.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  transition: all 0.1s linear;
-}
-
-.section-five__cards-colomn:hover .section-five__cards-item-imege_3 {
-  background-image: url("/img/section-five/section-five__icon/hover/h3.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  transition: all 0.1s linear;
-}
 
 .section-five__cards-item-email {
   font-style: normal;
