@@ -665,107 +665,15 @@ body {
   margin: 20px;
 }
 
-.section-four__company-item_1 {
-  background-image: url("/img/section-four/company/1.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
+.section-four__icons{
+  fill:#737373;
+  max-width: 120px;
 }
 
-.section-four__company-item_1:hover {
-  background-image: url("/img/section-four/company/hover/h1.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-  transform: scale(1.2);
+.section-four__icons:hover{
+  fill:#ff7b47;
 }
 
-.section-four__company-item_2 {
-  background-image: url("/img/section-four/company/2.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-}
-
-.section-four__company-item_2:hover {
-  background-image: url("/img/section-four/company/hover/h2.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-  transform: scale(1.2);
-}
-
-.section-four__company-item_3 {
-  background-image: url("/img/section-four/company/3.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-}
-
-.section-four__company-item_3:hover {
-  background-image: url("/img/section-four/company/hover/h3.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-  transform: scale(1.2);
-}
-
-.section-four__company-item_4 {
-  background-image: url("/img/section-four/company/4.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-}
-
-.section-four__company-item_4:hover {
-  background-image: url("/img/section-four/company/hover/h4.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-  transform: scale(1.2);
-}
-
-.section-four__company-item_5 {
-  background-image: url("/img/section-four/company/5.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-}
-
-.section-four__company-item_5:hover {
-  background-image: url("/img/section-four/company/hover/h5.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-  transform: scale(1.2);
-}
-
-.section-four__company-item_6 {
-  background-image: url("/img/section-four/company/6.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-}
-
-.section-four__company-item_6:hover {
-  background-image: url("/img/section-four/company/hover/h6.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: contain;
-  transition: all 0.2s linear;
-  transform: scale(1.2);
-}
 
 .section-four__footer {
   /* margin: 0 auto; */
