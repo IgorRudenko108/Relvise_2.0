@@ -36,10 +36,14 @@
   }
 }
 
-@media (max-width: 570px) {
-  .header__logo {
-    margin-bottom: 50px;
+@media (max-width: 767px) {
+  .header{
+    padding: 20px 0 10px;
   }
+
+}
+
+@media (max-width: 570px) {
 
   .header__container {
     display: flex;
@@ -56,15 +60,72 @@
 @media (max-width: 480px) {
   .header__menu-item {
     font-size: 18px;
-    margin-bottom: 20px;
   }
 }
 
 /* burger ------------------ */
 @media (max-width: 767px) {
   .header__menu {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;  
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background-color: #000;
+    opacity: 0;
+    transform: translateX(120%);
+    transition: all 0.4s ease 0s;
+    overflow-y: scroll;
   }
+
+  /* хром, сафари */
+  .header__menu::-webkit-scrollbar { width: 0; 
+  }
+  /* ie 10+ */
+  .header__menu { -ms-overflow-style: none;
+  }
+  /* фф (свойство больше не работает, других способов тоже нет)*/
+  .header__menu { overflow: -moz-scrollbars-none; 
+  }
+
+  .header__menu._active{
+    opacity: .92;
+    transform: translateX(0);
+    transition: all 0.4s ease 0s;
+  }
+
+
+  .header__menu-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .header__menu-item{
+    padding: 20px 0;
+  }
+
+  .header__menu-item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header__menu-item a{
+    color: #fff;
+    font-size: 25px;
+  }
+
+  /* .header__menu::before {
+    content: '';
+    background-color: #000;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } */
 
   .header {
     margin-bottom: 0;
