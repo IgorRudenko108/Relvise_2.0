@@ -29,10 +29,10 @@
 
 					<nav class="header__menu">
 						<ul class="header__menu-list">
-							<li class="header__menu-item"><a href="#">Home</a></li>
-							<li class="header__menu-item"><a href="#">Product</a></li>
-							<li class="header__menu-item"><a href="#">Pricing</a></li>
-							<li class="header__menu-item"><a href="#">Contact</a></li>
+							<li class="header__menu-item"><a href="#" data-goto="#section-first">Home</a></li>
+							<li class="header__menu-item"><a href="#" data-goto="#section-second">Product</a></li>
+							<li class="header__menu-item"><a href="#" data-goto="#section-third">Pricing</a></li>
+							<li class="header__menu-item"><a href="#" data-goto="#section-four">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -40,16 +40,16 @@
 			<!-- /header ------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 			<!-- section-first -------------------------------------------------------------------------------------------------------------------------------------------->
-			<section class="section-first">
+			<section class="section-first _anim-items _anim-no-hide" id="section-first">
 				<div class="section-first__container-main _container">
-					<h1 class="section-first__title">
+					<h1 class="section-first__title _anim-show-left">
 						Finance and Consultancy Solution
 					</h1>
-					<p class="section-first__text">
+					<p class="section-first__text _anim-show-left">
 						We know how large objects will act, 
 						but things on a small scale.
 					</p>
-					<div class="section-first__btn-raw">
+					<div class="section-first__btn-row _anim-show-left">
 						<a href="#" class="section-first__btn-left btn-item">Get Quote Now</a>
 
 						<a href="#" class="section-first__btn-right btn-item">Get Quote Now</a>
@@ -62,12 +62,12 @@
 
 
 		<!-- section-second ---------------------------------------------------------------------------------------------------------------------------------------------------->
-		<section class="section-second">
+		<section class="section-second" id="section-second">
 			
 				<div class="section-second__container _container">
 
-					<div class="section-second__cards-wrapper">
-						<div class="section-second__cards">
+					<div class="section-second__cards-wrapper _anim-items _anim-no-hide">
+						<div class="section-second__cards _anim-show-up">
 
 							<div class="section-second__cards-colomn">
 								<div class="section-second__cards-item section-second__cards-item_1">
@@ -122,60 +122,65 @@
 						of Classical physics: Newtonian mechanics 
 					</div>
 
-					<div class="section-second__statistic">
 
-					<div class="section-second__statistic-item statistic-item">
-						<div class="statistic-item__image">
-							<img src="img/statistic-item__images/1.svg" alt="#">
+					
+
+
+					<div class="section-second__statistic benefits__inner _anim-items _anim-no-hide">
+
+						<div class="section-second__statistic-item statistic-item _anim-show-up">
+							<div class="statistic-item__image">
+								<img src="img/statistic-item__images/1.svg" alt="#">
+							</div>
+
+							<div class="statistic-item__amount">
+								<div class="number" data-max="972">0</div>
+							</div>
+							<div class="statistic-item__text">
+								Consumer Products 
+							</div>
 						</div>
 
-						<div class="statistic-item__amount">
-							972 +
+						<div class="section-second__statistic-item statistic-item _anim-show-up">
+							<div class="statistic-item__image">
+								<img src="img/statistic-item__images/2.svg" alt="#">
+							</div>
+
+							<div class="statistic-item__amount">
+								<div class="number02" data-max02="181">0</div>
+							</div>
+							<div class="statistic-item__text">
+								Financial Services 
+							</div>
 						</div>
-						<div class="statistic-item__text">
-							Consumer Products 
+
+						<div class="section-second__statistic-item statistic-item _anim-show-up">
+							<div class="statistic-item__image">
+								<img src="img/statistic-item__images/3.svg" alt="#">
+							</div>
+
+							<div class="statistic-item__amount">
+								<div class="number03" data-max03="98">0</div>
+							</div>
+							<div class="statistic-item__text">
+								Environmental  
+							</div>
 						</div>
+
+						<div class="section-second__statistic-item statistic-item _anim-show-up">
+							<div class="statistic-item__image">
+								<img src="img/statistic-item__images/4.svg" alt="#">
+							</div>
+
+							<div class="statistic-item__amount">
+								<div class="number04" data-max04="746">0</div>
+							</div>
+							<div class="statistic-item__text">
+								Business & Finance  
+							</div>
+						</div>
+
 					</div>
-
-					<div class="section-second__statistic-item statistic-item ">
-						<div class="statistic-item__image">
-							<img src="img/statistic-item__images/2.svg" alt="#">
-						</div>
-
-						<div class="statistic-item__amount">
-							181 +
-						</div>
-						<div class="statistic-item__text">
-							Financial Services 
-						</div>
-					</div>
-
-					<div class="section-second__statistic-item statistic-item ">
-						<div class="statistic-item__image">
-							<img src="img/statistic-item__images/3.svg" alt="#">
-						</div>
-
-						<div class="statistic-item__amount">
-							98%
-						</div>
-						<div class="statistic-item__text">
-							Environmental  
-						</div>
-					</div>
-
-					<div class="section-second__statistic-item statistic-item ">
-						<div class="statistic-item__image">
-							<img src="img/statistic-item__images/4.svg" alt="#">
-						</div>
-
-						<div class="statistic-item__amount">
-							746 +
-						</div>
-						<div class="statistic-item__text">
-							Business & Finance  
-						</div>
-					</div>
-
 				
 				</div>
 			</div>			
@@ -183,7 +188,7 @@
 
 
 		<!-- section-third ------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<section class="section-third">
+		<section class="section-third" id="section-third">
 			<div class="section-third__container _container">
 				<div class="section-third__title main-title">
 					Practice Advice
@@ -193,9 +198,9 @@
 					the two major realms of Classical physics: Newtonian mechanics 
 				</p>
 
-				<div class="section-third__cards-raw">
+				<div class="section-third__cards-row _anim-items _anim-no-hide">
 				
-					<div class="vertical-colomn">
+					<div class="vertical-colomn _anim-show-left">
 						<div class="section-third__cards-item">
 
 							<div class="section-third__cards-item-title">
@@ -218,7 +223,7 @@
 					</div>
 
 
-					<div class="vertical-colomn">
+					<div class="vertical-colomn _anim-show-left">
 						<div class="section-third__cards-item">
 
 							<div class="section-third__cards-item-title">
@@ -240,7 +245,7 @@
 					</div>
 
 
-					<div class="vertical-colomn">
+					<div class="vertical-colomn _anim-show-right">
 						<div class="section-third__cards-item">
 
 							<div class="section-third__cards-item-title">
@@ -262,7 +267,7 @@
 					</div>
 
 
-					<div class="vertical-colomn">
+					<div class="vertical-colomn _anim-show-right">
 						<div class="section-third__cards-item">
 
 							<div class="section-third__cards-item-title">
@@ -292,7 +297,7 @@
 		
 
 		<!-- section-four ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<section class="section-four">
+		<section class="section-four " id="section-four">
 			<div class="section-four__container _container">
 
 				<div class="section-four__title main-title">
@@ -303,12 +308,13 @@
 					of Classical physics: Newtonian mechanics 
 				</div>
 
-				<div class="section-four__main-content main-content">
-					<div class="main-content__video">
+				<div class="section-four__main-content main-content _anim-items _anim-no-hide">
+
+					<div class="main-content__video _anim-show-left">
 						<video src="img/video/1.mp4"  controls="controls" poster="img/section-four/video-poster.jpg"></video>
 					</div>
 
-					<div class="main-content__offer">
+					<div class="main-content__offer _anim-show-right">
 						<div class="main-content__offer-title">
 							Most trusted in 
 							our field
@@ -343,39 +349,39 @@
 					</div>
 				</div>
 
-				<div class="section-four__company-raw">
+				<div class="section-four__company-row _anim-items _anim-no-hide">
 
-					<div class="section-four__company-item">
+					<div class="section-four__company-item _anim-show-up">
 						<svg class="hooli section-four__icons">
 							<use xlink:href="#hooli"></use>
 						</svg>
 					</div>
 	
-					<div class="section-four__company-item">
+					<div class="section-four__company-item _anim-show-up">
 						<svg class="lyft section-four__icons">
 							<use xlink:href="#lyft"></use>
 						</svg>
 					</div>
 	
-					<div class="section-four__company-item">
+					<div class="section-four__company-item _anim-show-up">
 						<svg class="lyft2 section-four__icons">
 							<use xlink:href="#lyft2"></use>
 						</svg>
 					</div>
 	
-					<div class="section-four__company-item">
+					<div class="section-four__company-item _anim-show-up">
 						<svg class="stripe section-four__icons">
 							<use xlink:href="#stripe"></use>
 						</svg>
 					</div>
 	
-					<div class="section-four__company-item">
+					<div class="section-four__company-item _anim-show-up">
 						<svg class="aws section-four__icons">
 							<use xlink:href="#aws"></use>
 						</svg>
 					</div>
 	
-					<div class="section-four__company-item">
+					<div class="section-four__company-item _anim-show-up">
 						<svg class="men section-four__icons">
 							<use xlink:href="#men"></use>
 						</svg>
@@ -384,7 +390,7 @@
 
 
 				<div class="section-four__footer">
-					<div class="section-four__footer-raw">
+					<div class="section-four__footer-row">
 						<div class="section-four__footer-text">
 							Subscribe For Latest 
 							Newsletter
@@ -406,7 +412,7 @@
 
 
 		<!-- section-five ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<section class="section-five">
+		<section class="section-five" id="section-five">
 			<div class="section-five__container _container">
 
 				<div class="section-five__title main-title">
@@ -418,9 +424,9 @@
 				</div>
 
 				<div class="section-five__main-content">
-					<div class="section-five__cards-raw">
+					<div class="section-five__cards-row _anim-items _anim-no-hide">
 
-						<div class="section-five__cards-colomn">
+						<div class="section-five__cards-colomn _anim-show-down">
 							<div class="section-five__cards-item">
 
 								<svg class="phone">
@@ -442,7 +448,7 @@
 							</div>
 						</div>	
 
-						<div class="section-five__cards-colomn">
+						<div class="section-five__cards-colomn _anim-show-up">
 							<div class="section-five__cards-item">
 								
 								<svg class="marker">
@@ -464,7 +470,7 @@
 							</div>
 						</div>
 						
-						<div class="section-five__cards-colomn">
+						<div class="section-five__cards-colomn _anim-show-down">
 							<div class="section-five__cards-item">
 								
 								<svg class="mail">
@@ -494,7 +500,7 @@
 		
 
 		<!-- section-six ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<section class="section-six">
+		<section class="section-six" id="section-six">
 			<div class="section-six__container _container">
 				<div class="section-six__main-content">
 
@@ -518,9 +524,9 @@
 
 		
 		<!-- footer ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
-		<footer class="footer">
+		<footer class="footer" id="footer">
 			<div class="footer__container _container">
-				<div class="footer__content-raw">
+				<div class="footer__content-row">
 
 					<div class="footer__content-colomn">
 						<div class="footer__content-item">
@@ -679,7 +685,7 @@
 	</svg>
 	<!-- /sprite for section-five  ---------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-
+	<script src="js/headhesive.min.js"></script>
 	<script src="js/script.js"></script>
 
 </body>
