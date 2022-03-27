@@ -286,11 +286,14 @@ body._lock{
 
 .section-first__btn-row {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 80px;
   transition-delay: .6s!important;
 }
 
 .btn-item {
+  display: block;
+  white-space: nowrap;
   border-radius: 37px;
   align-items: center;
   padding: 10px 36px;
@@ -300,6 +303,7 @@ body._lock{
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.2px;
+  height: 100%;
 }
 
 .section-first__btn-left {
